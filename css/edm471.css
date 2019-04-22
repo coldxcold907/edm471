@@ -1,0 +1,367 @@
+@charset "utf-8";
+/* CSS Document */
+#edm471 #Fintech_real-estate{
+    background-image: url(../img/real-estate-background.jpg);
+/*    height: calc(100vh - 90px);*/
+    padding-top: 90px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+#edm471 .desk-ver{
+    display: block;
+    }
+#edm471 .mob-ver{
+    display:none;
+    }
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+} 
+.embed-container iframe, .embed-container object, .embed-container embed { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+#edm471 .container{
+    position: relative;
+    max-width: 1200px;
+    padding: 0px;
+    margin: 0 auto;
+}
+#edm471 h4{
+    text-align: center;
+    font-size: 20px;
+}
+/*block1*/
+#edm471 .block1{
+/*    height: 600px;*/
+    position: relative;
+    overflow: hidden;
+/*    background-color: rgba(255, 255, 255, 0.58);*/
+}
+#edm471 .block1 .bigtit{
+    float: right;
+    width: 65%
+}
+#edm471 .block1 .bigtit img:nth-of-type(1){
+    padding-top: 60px
+}
+#edm471 .block1 .tobuyicon{
+    padding-top: 0px;
+    float: right;
+}
+#edm471 .block1 .mrwu{
+    float: left;
+     width: 35%;
+}
+/*block2*/
+#edm471 .block2{
+    background-color: rgba(140, 198, 63, 0.8);
+    position: relative;
+    overflow: hidden;
+}
+#edm471 .block2 .slogen{
+    margin-right: -500px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%,rgba(255,255,255,0) 70%,rgba(23,23,21,1) 71%,rgba(23,23,21,1) 100%);
+}
+/*block3*/
+#edm471 .block3{
+   padding: 40px 0;
+}
+#edm471 .block3 .box{
+    background-color: rgba(46, 54, 68, 0.8);
+    box-sizing: border-box;
+    color: #fff;
+    padding: 30px 30px 30px 180px;
+    position: relative;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    height: 240px
+}
+#edm471 .block3 .box img{
+    position: absolute;
+    left: -200px;
+    top: -30px;
+    border: 3px solid #fff
+}
+#edm471 .block3 .box h2{
+    font-size: 40px;
+    margin-bottom: 20px
+}
+#edm471 .block3 .box li{
+    font-size: 18px;
+    list-style: none;
+    position: relative;
+    padding-left: 74px
+}
+#edm471 .block3 .box li span{
+    margin-left: -74px
+}
+/*block4*/
+#edm471 .block4 .tit{
+    padding: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 2px #fff,2px 2px 1px #fff;
+}
+#edm471 .block4 .col_3_box{
+    width: calc(100% / 3 - 10px);
+    box-sizing: border-box;
+    padding: 20px 20px 0px 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    float: left;
+    margin: 0 10px 20px 0;
+    border: 1px solid #2E3644;
+    border-radius: 5px
+}
+#edm471 .block4 .col_3_box h3{
+    font-size: 35px;
+    color: #2E3644;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#edm471 .block4 ul{
+    min-height: 170px
+}
+#edm471 .block4 .col_3_box li{
+   list-style: none;
+    font-size: 16px;
+    color: #2E3644;
+    padding-left: 10px
+}
+#edm471 .block4 .col_3_box li:before{
+    content: '▸ ';
+    margin-left: -10px
+}
+/*block5*/
+#edm471 .block5{
+    background-color: rgba(140, 198, 63, 0.8);
+    position: relative;
+    overflow: hidden;
+}
+#course_page{
+    margin-top: 50px
+}
+#course_page li{
+    width: calc(50% - 2px);
+    float: left;
+    text-align: center;
+    font-size: 25px; 
+/*    background-color: #ED1C24;*/
+}
+#course_page a{
+    display: block;
+     padding: 5px 0;
+/*    background-color: #fff;*/
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px 10px 0 0px;
+    border: 1px solid #fff;
+}
+#course_page li:nth-of-type(1) a{
+    color: #ED1C24;
+    border: 1px solid #ED1C24;
+    transition: all .3s;
+}
+#course_page li:nth-of-type(2) a{
+    color: #0071BC;
+    border: 1px solid #0071BC;
+}
+#course_page .active{
+   color: #ED1C24;
+}
+#course_page li:nth-of-type(1) .active,#course_page li:nth-of-type(1) a:hover{
+    background-color: #ED1C24;
+    color: #fff
+}
+#course_page li:nth-of-type(2) .active,#course_page li:nth-of-type(2) a:hover{
+    background-color: #0071BC;
+    color: #fff
+}
+.block5 .coursetable{
+    width: calc(100% - 4px);
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 17px;
+    
+}
+.block5 .coursetable th{
+    background-color: #324417;
+    color: #fff;
+    border: 1px solid #324417;
+    border-right: 1px solid #fff;
+    vertical-align: middle;
+    text-align: center;
+}
+.block5 .coursetable th:last-child{
+    border-right: 1px solid #324417;
+}
+.block5 .coursetable td{
+    border: 1px solid #324417;
+    vertical-align: middle;
+    text-align: center;
+}
+.block5 .btntoform{
+    background-color: #324417;
+    margin: 0px auto 30px auto;
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.block5 .btntoform a,.block5 .btntoform .fa{
+   color: #fff
+}
+.block6{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-top: 40px
+}
+.block6 table{
+    background-color: #fff
+}
+.block6 input,.block6 textarea,.block6 select{
+    width: 100%;
+    border: 1px solid #ccc;
+    font-size: 18px;
+}
+#is_read,#sale_agree{
+    width: auto
+}
+@media only screen and (max-width: 1700px) {
+#edm471 .block2 .slogen{
+    background: rgba(255, 255, 255, 0);
+}
+}
+@media only screen and (max-width: 1200px) {
+#edm471 #Fintech_real-estate{
+    padding-top: 50px;
+}
+#edm471 .container{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+/*block4*/
+#edm471 .block4 ul{
+    min-height: 250px
+}
+}
+@media only screen and (max-width: 950px) {
+/*block1*/
+#edm471 .block1 .mrwu{
+    margin-top: 40px
+}
+/*block3*/
+#edm471 .block3 .box{
+    margin-left: 80px;
+}
+#edm471 .block3 .box img{
+    width: 250px;
+}
+/*block4*/
+#edm471 .block4 .tit{
+    padding: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 2px #fff,2px 2px 1px #fff;
+}
+#edm471 .block4 .col_3_box{
+    width: calc(100% - 0px);
+    box-sizing: border-box;
+    padding: 20px 20px 0px 20px;
+    float: none;
+    margin: 0px 0px 20px 0;
+}
+#edm471 .block4 ul{
+    min-height: auto;
+    padding-bottom: 10px
+}
+#edm471 .block4 .col_3_box li{
+   list-style: none;
+    font-size: 16px;
+    color: #2E3644;
+    padding-left: 10px
+}
+}
+@media only screen and (max-width: 780px) {
+#edm471 .desk-ver{
+    display: none;
+    }
+#edm471 .mob-ver{
+    display:block;
+    }
+/*block1*/
+#edm471 .block1 .bigtit{
+    float: none;
+    width: 100%
+}
+#edm471 .block1 .tobuyicon{
+    padding: 10px 0;
+    float: none;
+}
+#edm471 .block1 .mrwu{
+    display: none
+}
+/*block2*/
+#edm471 .block2 .slogen{
+    margin-right: 0px;
+}
+/*block3*/
+#edm471 .block3 .container{
+padding: 0;  
+}
+#edm471 .block3 .box{
+    padding: 0;
+    position: relative;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: auto;
+    max-width: 450px;
+    margin: 20px auto;
+    width: 100%;
+}
+#edm471 .block3 .box img{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    border: 0px solid #fff;
+    width: 100%
+}
+#edm471 .block3 .box h2{
+    font-size: 30px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+#edm471 .block3 .box ul{
+    padding: 10px 10px 20px 10px;
+}    
+#edm471 .block3 .box li{
+    font-size: 17px;
+    padding-left: 70px
+}
+#edm471 .block3 .box li span{
+    margin-left: -70px
+}
+.slec-td{
+    position: relative;
+    overflow: hidden;
+}
+}
